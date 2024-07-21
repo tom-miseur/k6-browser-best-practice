@@ -1,0 +1,15 @@
+{
+  "scenarios": {
+    "checkout": {
+      "exec": "checkout",
+      "executor": "shared-iterations",
+      "iterations": 1,
+      "vus": 1,
+      "options": {
+        "browser": {
+          "type": "chromium"
+        }
+      }
+    }
+  }
+}
